@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    font-size: 18px;
+}
+
+@media (max-width: 768px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer div:nth-child(2) {
+        margin: 10px 0;
+    }
+}
