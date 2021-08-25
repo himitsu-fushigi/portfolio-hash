@@ -114,7 +114,6 @@ export default function App() {
       <Suspense fallback={<div>Footer Loading...</div>}>
         <Footer />
       </Suspense>
-      <Footer />
     </div>
   );
 }
