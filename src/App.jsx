@@ -1,19 +1,26 @@
-import React from "react";
+import React, { Suspense } from "react";
 import User from "./Assets/profile.webp";
 import "./App.css";
-import Topbar from "./Components/Topbar/Topbar";
-import Footer from "./Components/Footer/Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
+
+// components
+const Topbar = React.lazy(() => import("./Components/Topbar/Topbar"));
+const Footer = React.lazy(() => import("./Components/Footer/Footer"));
 
 export default function App() {
   return (
     <div className="app">
       <Helmet>
-                <title>
-                  Laxman Rai | 💼 Vice President of Operations by Profession @Hash Technologies | 🎓 Web Dev & Blockchain Researcher by Enthusiasm | 📸 Bike Rider & Landscape Photographer by Hobby.
-                </title>
-            </Helmet>
+        <title>
+          Laxman Rai | 💼 Vice President of Operations by Profession @Hash
+          Technologies | 🎓 Web Dev & Blockchain Researcher by Enthusiasm | 📸
+          Bike Rider & Landscape Photographer by Hobby.
+        </title>
+      </Helmet>
+
+      <Suspense fallback={<div>Topbar Loading...</div>}>
         <Topbar />
+      </Suspense>
 
       <div className="title">
         <img src={User} alt="Laxman Rai" />
@@ -26,7 +33,11 @@ export default function App() {
         </p>
       </div>
 
-        <h1 className="social-links-title">Keep updated with my <span style={{borderBottom: "4px solid #2ecc71"}}>latest works</span>. 😎</h1>
+      <h1 className="social-links-title">
+        Keep updated with my{" "}
+        <span style={{ borderBottom: "4px solid #2ecc71" }}>latest works</span>.
+        😎
+      </h1>
       <div className="social-links">
         <div>
           <a
@@ -100,7 +111,10 @@ export default function App() {
         </div>
       </div>
 
-      <Footer/>
+      <Suspense fallback={<div>Footer Loading...</div>}>
+        <Footer />
+      </Suspense>
+      <Footer />
     </div>
   );
 }
