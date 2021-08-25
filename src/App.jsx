@@ -1,12 +1,18 @@
 import React from "react";
-import User from "./Assets/profile.JPG";
+import User from "./Assets/profile.webp";
 import "./App.css";
 import Topbar from "./Components/Topbar/Topbar";
 import Footer from "./Components/Footer/Footer";
+import {Helmet} from "react-helmet";
 
 export default function App() {
   return (
     <div className="app">
+      <Helmet>
+                <title>
+                  Laxman Rai | 💼 Vice President of Operations by Profession @Hash Technologies | 🎓 Web Dev & Blockchain Researcher by Enthusiasm | 📸 Bike Rider & Landscape Photographer by Hobby.
+                </title>
+            </Helmet>
         <Topbar />
 
       <div className="title">
