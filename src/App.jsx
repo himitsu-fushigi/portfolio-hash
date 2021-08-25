@@ -40,7 +40,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://www.instagram.com/lex__iar/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +50,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://github.com/himitsu-fushigi/"
             target="_blank"
             rel="noreferrer"
           >
@@ -60,7 +60,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://www.behance.net/laxmanrai3"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +70,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://www.linkedin.com/in/laxman-rai-b8410521b/"
             target="_blank"
             rel="noreferrer"
           >
@@ -80,7 +80,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://twitter.com/LaxmanR65635217"
             target="_blank"
             rel="noreferrer"
           >
@@ -90,7 +90,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://www.facebook.com/laxmanrai.26"
+            href="https://laxmanrai.medium.com/"
             target="_blank"
             rel="noreferrer"
           >
