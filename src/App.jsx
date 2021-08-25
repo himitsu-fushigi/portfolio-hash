@@ -91,7 +91,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://twitter.com/LaxmanR65635217"
+            href="https://twitter.com/lex_iar_"
             target="_blank"
             rel="noreferrer"
           >
