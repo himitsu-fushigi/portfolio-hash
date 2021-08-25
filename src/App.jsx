@@ -4,8 +4,8 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 
 // components
-const Topbar = React.lazy(() => import("./Components/Topbar/Topbar"));
-const Footer = React.lazy(() => import("./Components/Footer/Footer"));
+const Topbar = React.lazy(() => import("./Components/Topbar/Topbar.jsx"));
+const Footer = React.lazy(() => import("./Components/Footer/Footer.jsx"));
 
 export default function App() {
   return (
